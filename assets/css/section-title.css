@@ -1,0 +1,27 @@
+.section-header {
+    margin-bottom: 40px;
+}
+.section-header .section-sub-title {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-medium);
+    text-transform: uppercase;
+    line-height: 26px;
+    color: var(--color-secondary);
+}
+
+.section-header .section-title {
+    font-size: var(--fs-30);
+    font-weight: var(--fw-bold);
+    text-transform: capitalize;
+    line-height: 36px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.section-header .section-desc {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-normal);
+    text-transform: capitalize;
+    line-height: 24px;
+}

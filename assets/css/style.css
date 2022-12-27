@@ -1,0 +1,64 @@
+/*
+    [ Shortcode Stylesheet ]
+    <?xml version="1.0" encoding="UTF-8"?>
+
+    Theme Name: Hungrybuzz - Restaurant Template
+    Version: 1.0
+    Author: WPThemeBooster
+    Author URI: www.wpthemebooster.com
+    Description: This template usable to build website for Blogging.
+    Date: 07/11/2020
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+  1. Fonts, Icons and Other Styles Import
+  2. Reset
+    2-1. Body, Font, Container, Space
+    2-2. Placeholder Customize
+    2-3. Social Icons Color
+    2-4. Input, Textarea (All forms field) customization
+    2-5. Button Styling
+  3. Menu
+  4. Section Heading
+  5. Slider 
+  6. Footer
+  7. Blog
+  8. Portfolio
+  9. About
+  10. Timeline
+  11. Tab
+  12. Team
+  13. Cart
+  14. Checkout
+  15. Product
+  16. Contact
+  17. Sidebar
+  18. preloader
+  19. External Font Face Include
+  20. Background Image
+  21. Slick Slider Controller (Navigation & Pagination)
+  22. Page Header (Breadcrumb)
+  23. Section Header
+  24. Reserve Table
+  25. Video Banner
+  26. Food Platter
+  27. Speciality
+  28. Call to Action (Banner)
+  29. Newsletter
+  30. Author 
+  31. Preloader
+  32. Mouse Cursor Effect
+  33. Theme Light Mode CSS
+  34. Responsive
+
+-----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:wght@400;600&display=swap');
+@import url("../fonts/bootstrap-icons/font/bootstrap-icons.css");
+@import url("bootstrap.min.css");
+@import url("../../plugins/menu/ma5-menu.css");
+@import url("global.css");
+@import url("header.css");
+@import url("section-title.css");
+@import url("footer.css");
+@import url("preloader.css");
