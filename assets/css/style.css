@@ -1,5 +1,5 @@
 /*===================
-   Custom CSS Styles 
+   Banner Styles 
   ===================*/
 
 .heading-text {
@@ -7,6 +7,7 @@
   font-weight: 700;
   font-size: 96px;
   line-height: 96px;
+  letter-spacing: 0.015em;
 }
 .pre-heading {
   display: inline-block;
@@ -18,6 +19,7 @@
   padding: 17px 13px 0 13px;
   border-radius: 5px;
   margin-bottom: 20px;
+  letter-spacing: 1.5px;
 }
 
 .banner-btn {
@@ -36,12 +38,8 @@
 }
 
 .banner-img {
-  position: absolute;
-  width: 100%;
-  /* height: 700px; */
-  top: 188px;
-  /* padding-top: 218px; */
-  /* bottom: 0; */
+  height: 100%;
+  margin-top: 218px;
 }
 
 .paragraph-text {
@@ -52,13 +50,44 @@
   background-image: url(../images/banner/banner-bg.png);
 }
 
-.banner-img-padding {
-  padding-top: 51px;
-}
-.banner-content-padding {
-  padding-top: 111px;
+.banner-content {
+  padding: 168px 0;
 }
 
-.service-bg {
-  background-image: url("../assets/bg/providing-bg.png");
+/*===================
+   Course Styles 
+  ===================*/
+
+.course-separator {
+  background-image: url(../images/category/course-bg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 47px;
+  border-radius: 10px;
+}
+.course-separator h5 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 5px;
+  /* line-height: 36px; */
+}
+
+.course-separator .start-btn {
+  color: #49d2af;
+  background-color: white;
+  padding: 20px 38px;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.start-btn p {
+  letter-spacing: 0.015em;
+  line-height: 20px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 19px; */
 }

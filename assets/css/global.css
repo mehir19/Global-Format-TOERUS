@@ -1,6 +1,6 @@
 :root {
   /* Font Family */
-  --font-family-base: "Montserrat", sans-serif;
+  --font-family-base: "Roboto", sans-serif;
   --font-family-second: "Nunito Sans", sans-serif;
 
   /* Font Weight */
@@ -697,9 +697,13 @@ body {
   line-height: var(--fs-26);
 }
 
-.auto-container {
+section {
+  margin-bottom: 90px;
+}
+
+.container {
   position: static;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -812,16 +816,6 @@ table th {
   border-bottom: 1px solid rgba(var(--color-black), 0.3);
   border-right: 1px solid rgba(var(--color-black), 0.3);
   text-align: center;
-}
-img {
-  max-width: 100%;
-}
-
-.section,
-section {
-  position: relative;
-  padding: 100px 0px;
-  z-index: 1;
 }
 
 /* Default Input type */
