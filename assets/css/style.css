@@ -130,7 +130,7 @@
   margin: 0 30px 29px 0;
   border: 1px solid rgba(0, 0, 0, 0.25);
 }
-.course-div,
+.course-div:hover,
 .categoty-div:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -234,16 +234,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 47px 15px 46px 40px;
+  padding: 47px 15px 46px 40px;
 }
 
 .categoty-div {
   border: 1px solid #ececec;
   border-radius: 5px;
-  margin: 0 30px 29px 0;
+  margin: 26px 0;
 }
 
-.lessons {
+.lessons span {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
