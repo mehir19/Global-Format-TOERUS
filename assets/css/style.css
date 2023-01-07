@@ -345,6 +345,135 @@ ul.point-order li {
 /*====================
    Testimonial Styles 
   ====================*/
+.testimonial-lower {
+  margin-top: 50px;
+}
+.testimonial-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.testimonial-block .inner-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  /* box-shadow: 0px 5px 15px rgba(137, 151, 186, 0.15); */
+}
+
+.testimonial-block .upper-box {
+  position: relative;
+  padding: 50px 40px;
+}
+
+.testimonial-block .rating {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.testimonial-block .rating i,
+.rating .course-rating {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  font-weight: 500px;
+}
+.rating .course-rating {
+  margin-left: 5px;
+}
+
+.testimonial-block .text {
+  color: #505050;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 30px;
+}
+
+.testimonial-block .lower-box {
+  position: relative;
+  padding: 20px;
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+
+.testimonial-block .lower-box .author-box {
+  position: relative;
+  min-height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-block .lower-box .box-inner {
+  position: relative;
+  padding-top: 5px;
+  padding-left: 80px;
+}
+
+.testimonial-block .lower-box .author-box .author-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 79px;
+  height: 79px;
+}
+
+.testimonial-block .lower-box .author-box .author-image img {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonial-block .lower-box .author-box strong {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1d1d1d;
+}
+
+.testimonial-block .lower-box .author-box .designation {
+  display: flex;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.first {
+  color: #4ad3b0;
+}
+.first-bg {
+  background-color: #4ad3b0;
+}
+.second {
+  color: #6f7df0;
+}
+.second-bg {
+  background-color: #6f7df0;
+}
+.third {
+  color: #ff7b66;
+}
+.third-bg {
+  background-color: #ff7b66;
+}
+.upper-first {
+  background-color: #f1fcf9;
+}
+.lower-first {
+  background-color: #e4faf4;
+}
+.upper-second {
+  background-color: #f5f6fe;
+}
+.lower-second {
+  background-color: #edefff;
+}
+.upper-third {
+  background-color: #fff6f4;
+}
+.lower-third {
+  background-color: #ffede9;
+}
 
 /*====================
   Newsletter Styles 
