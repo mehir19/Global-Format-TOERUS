@@ -1,0 +1,75 @@
+/* Jackcerra Business HTML-5 Template */
+
+@media only screen and (max-width: 1700px) {
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1340px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1140px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .course-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .course-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .course-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .newsletter {
+    flex-direction: column;
+    padding: 74px 104px;
+  }
+  .newsletter-form {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .upper-newsletter {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .course-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .course-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .course-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}

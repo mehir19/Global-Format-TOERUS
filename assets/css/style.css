@@ -91,14 +91,17 @@
   font-size: 16px;
 }
 
-.top-course {
+.top-course,
+.testimonial-upper {
   text-align: center;
   margin-bottom: 30px;
 }
 
 .top-course span,
 .offer span,
-.instructor span {
+.instructor span,
+.newsletter span,
+.testimonial-upper span {
   display: inline-block;
   padding: 5px 17px;
   background-color: #ff7b66;
@@ -112,7 +115,8 @@
 }
 .top-course h2,
 .offer h2,
-.instructor h2 {
+.instructor h2,
+.testimonial-upper h2 {
   color: #1d1d1d;
   font-weight: 700;
   font-size: 42px;
@@ -138,10 +142,6 @@
 .categoty-div:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
-/* .categoty-div:hover {
-  background-color: #6f7df0;
-} */
 
 .course-tag {
   margin-bottom: 8px;
@@ -208,6 +208,10 @@
   color: #9795a9;
 }
 
+/*=========================
+   Fun Fact Section Styles 
+  =========================*/
+
 .counter {
   margin: 0;
   padding: 0;
@@ -237,6 +241,10 @@
 .counter-div {
   padding: 80px 160px;
 }
+
+/*===================
+   Category Styles 
+  ===================*/
 
 .course-icon {
   display: flex;
@@ -272,6 +280,10 @@
   margin-bottom: 45px;
 }
 
+/*===================
+   Company Styles 
+  ===================*/
+
 .company {
   display: flex;
   justify-content: space-between;
@@ -280,6 +292,10 @@
 .company img {
   width: auto;
 }
+
+/*===================
+   Instructor Styles 
+  ===================*/
 
 .paragraph-text {
   font-weight: 400;
@@ -295,8 +311,11 @@
   background-color: #49d2af;
   padding: 17px 26px;
   border-radius: 27.5px;
-  box-shadow: 0 4px 4px 0 rgba(73, 210, 175, 0.25);
   margin-top: 40px;
+}
+.offer .press-btn:hover,
+.instructor .press-btn:hover {
+  box-shadow: 0 4px 4px 0 rgba(73, 210, 175, 0.25);
 }
 
 .press-btn p {
@@ -319,5 +338,73 @@ ul.point-order li {
   line-height: 38px;
 }
 
-ul.point-order .icon {
+/*====================
+   Testimonial Styles 
+  ====================*/
+
+/*====================
+  Newsletter Styles 
+====================*/
+.newsletter {
+  background-image: url(../images/newsletter/newsletter-bg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 74px 0px;
+  border-radius: 10px;
+}
+.newsletter h5 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+/* Newsletter Form */
+
+.newsletter-form {
+  position: relative;
+  width: 40%;
+}
+
+.newsletter-form .form-group {
+  position: relative;
+  display: block;
+  margin-bottom: 0;
+}
+
+.newsletter-form .form-group input[type="text"] {
+  position: relative;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.015em;
+  color: #a0a4b4;
+  padding: 35px 42px;
+  border-radius: 3px;
+  background: white;
+  box-shadow: 0px 15px 30px 0 rgba(69, 83, 193, 0.35);
+  border-radius: 35px;
+  border: 0;
+}
+
+.subscribe-btn {
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  right: 7px;
+  top: 9px;
+  border-radius: 27.5px;
+  color: white;
+  background-color: #6f7df0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+  padding: 17px 30px;
+  border: 0;
 }
