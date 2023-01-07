@@ -16,7 +16,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .course-info {
+  .top-course-info {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -24,7 +24,7 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .course-info {
+  .top-course-info {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -32,7 +32,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .course-info {
+  .top-course-info {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -51,7 +51,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .course-info {
+  .top-course-info {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -59,7 +59,7 @@
 }
 
 @media only screen and (max-width: 599px) {
-  .course-info {
+  .top-course-info {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -67,7 +67,7 @@
 }
 
 @media only screen and (max-width: 479px) {
-  .course-info {
+  .top-course-info {
     display: flex;
     justify-content: start;
     align-items: center;
