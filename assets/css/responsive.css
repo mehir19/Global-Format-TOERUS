@@ -16,27 +16,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .top-course-info {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
 }
 
 @media only screen and (max-width: 1023px) {
-  .top-course-info {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
 }
 
 @media only screen and (max-width: 900px) {
-  .top-course-info {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
   .newsletter {
     flex-direction: column;
     padding: 74px 104px;
@@ -51,25 +36,10 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .top-course-info {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
 }
 
 @media only screen and (max-width: 599px) {
-  .top-course-info {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
 }
 
 @media only screen and (max-width: 479px) {
-  .top-course-info {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
 }

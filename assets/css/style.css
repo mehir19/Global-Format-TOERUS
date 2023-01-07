@@ -113,6 +113,7 @@
   letter-spacing: 0.055em;
   border-radius: 2px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .top-course h2,
 .course h2,
@@ -187,7 +188,7 @@
 
 .top-course-info {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .course-price {
