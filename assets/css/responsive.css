@@ -33,13 +33,25 @@
   .upper-newsletter {
     text-align: center;
   }
+  .categoty-div .card-body {
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .categoty-div .card-body {
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 599px) {
+  .categoty-div .card-body {
+    padding: 0 20px;
+  }
 }
 
 @media only screen and (max-width: 479px) {
+  .categoty-div .card-body {
+    padding: 20px;
+  }
 }
