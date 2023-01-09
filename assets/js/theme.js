@@ -50,6 +50,29 @@ Description: Mrittik is a Modern Architecture Theme
         });
 
 
+        new Swiper('.swiper_one', {
+            autoHeight: true,
+            slidesPerView: 3,
+            effect: 'slide',
+            loop: true,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 1000,
+            },
+
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+
+
     });      
 })(jQuery);
 
